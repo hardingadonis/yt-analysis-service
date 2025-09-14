@@ -18,7 +18,7 @@ export class YouTubeController {
 	@Post('analyze')
 	@HttpCode(HttpStatus.OK)
 	async analyzeVideo(@Body() dto: AnalyzeVideoDto) {
-		return this.service.analyzeVideo(dto);
+		return await this.service.analyzeVideo(dto);
 	}
 
 	@Get('result/:id')

@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 
-import { DomainModule } from '@/domains/domain.module';
+import { DomainModule } from '@/domains';
 
 @Module({
 	imports: [DomainModule],
