@@ -4,6 +4,7 @@ import { ConfigModule } from '@nestjs/config';
 
 import { RedisConfig, redisConfig } from '@/configs';
 import { DomainModule } from '@/domains';
+import { QueueModule } from '@/queue';
 
 @Module({
 	imports: [
@@ -25,6 +26,7 @@ import { DomainModule } from '@/domains';
 		}),
 
 		DomainModule,
+		QueueModule,
 	],
 })
 export class AppModule {}
