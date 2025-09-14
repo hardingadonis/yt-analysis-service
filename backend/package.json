@@ -1,0 +1,48 @@
+{
+  "name": "yt-analysis-service-backend",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT License",
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main",
+    "prisma:dev": "prisma migrate dev",
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio",
+    "prisma:reset": "prisma migrate reset",
+    "lint": "eslint \"{src,apps,libs}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@nestjs/common": "11.1.6",
+    "@nestjs/core": "11.1.6",
+    "@nestjs/platform-express": "11.1.6",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.1",
+    "@eslint/js": "9.35.0",
+    "@nestjs/cli": "11.0.10",
+    "@nestjs/schematics": "11.0.7",
+    "@swc/cli": "0.7.8",
+    "@swc/core": "1.13.5",
+    "@trivago/prettier-plugin-sort-imports": "5.2.2",
+    "@types/express": "5.0.3",
+    "@types/node": "20.17.58",
+    "eslint": "9.35.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.4",
+    "globals": "16.4.0",
+    "prettier": "3.6.2",
+    "source-map-support": "0.5.21",
+    "ts-loader": "9.5.4",
+    "ts-node": "10.9.2",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.9.2",
+    "typescript-eslint": "8.43.0"
+  }
+}

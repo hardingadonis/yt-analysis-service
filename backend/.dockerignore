@@ -1,0 +1,20 @@
+# Folders
+
+coverage/
+dist/
+node_modules/
+out/
+test/
+
+# Files
+
+.dockerignore
+.editorconfig
+.env
+.gitignore
+.lintstagedrc
+.prettierrc
+commitlint.config.js
+Dockerfile
+eslint.config.mjs
+\*.md
